@@ -13,7 +13,7 @@ void foorloop2(int recievMax,recievLevel){
   int max = recievMax;
   int level = recievLevel;
   for(int num = max;num>=1;num = num -1){
-    print("$num x $level = ${num*2}");
+    print("$num x $level = ${num*level}");
   }
 }
 
